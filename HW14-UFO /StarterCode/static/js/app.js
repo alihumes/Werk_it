@@ -82,7 +82,7 @@ function handleSearchButtonClick(event) {
 }
 
 function resetData() {
-  filteredData = dataSet;
+  tableData = data;
   $dateInput.value = "";
   $cityInput.value = "";
   $stateInput.value = "";
